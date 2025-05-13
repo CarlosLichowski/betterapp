@@ -1,0 +1,47 @@
+.navContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #353535;
+    padding: 1rem 5rem;
+    height: 100%;
+    padding: 0 32px 20px;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+    padding: 0 16px;
+    
+}
+
+.navLink{
+    cursor: pointer;
+}
+
+.navUser{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: red;
+    width: 100%;
+    padding: 0 16px;
+}
+
+
+.navUserImgContainer{
+    display: flex;
+}
+
+.NavUserNameContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

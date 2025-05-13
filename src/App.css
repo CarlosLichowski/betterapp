@@ -1,0 +1,26 @@
+.appContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.div1 { 
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: #fcfcfc;
+ }
+.div2 { 
+  grid-area: 2 / 1 / 10 / 2;
+  background-color: #fcfcfc;
+}
+.div3 { 
+  grid-area: 1 / 2 / 2 / 6;
+  background-color: #fcfcfc;
+}
+.div4 { 
+  grid-area: 2 / 2 / 10 / 6;
+  background-color: #fcfcfc;
+}
