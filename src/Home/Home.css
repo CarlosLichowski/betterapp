@@ -1,0 +1,38 @@
+.homeContainer{
+    padding: 20px
+}
+
+.homeBoxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: content-box;  
+}
+
+.CardContainer:nth-child(1){
+    background-color: #fdedd4;
+}
+
+.CardContainer:nth-child(2){
+    background-color: #e1f9f1;
+}
+
+.CardContainer:nth-child(3){
+    background-color: #dbe3ff;
+}
+
+.CardContainer:nth-child(4){
+    background-color: #ffffff;
+}
+
+.homeBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 352px;
+    height: 360px;
+    background-color: rgb(255, 0, 0);
+    gap: 5px;
+}
+
